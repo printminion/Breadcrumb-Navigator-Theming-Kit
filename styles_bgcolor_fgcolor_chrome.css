@@ -1,0 +1,75 @@
+body {
+	background-color: #E7EBF1;
+}
+
+A {
+	font: normal normal normal 13px/1.5 'Helvetica Neue', Arial, Helvetica,
+		'Liberation Sans', FreeSans, sans-serif;
+	white-space: nowrap;
+	background: #E7EBF1;
+	border: 1px solid #E7EBF1;
+	text-decoration: none;
+	text-shadow: white 0px 1px 0px;
+	border-radius: 0.5em;
+	font-size: 0.8em;
+	padding: 0.3em;
+	padding-left: 0.4em;
+	padding-right: 0.4em;
+	margin: -0.3em;
+}
+
+A.folder {
+	padding: 0.3em;
+	padding-left: 0.4em;
+	padding-right: 0.4em;
+	color: #444;
+}
+
+A.link {
+	padding-left: 0.1em;
+	padding-right: 0.1em;
+}
+
+A.beforePath {
+	color: #444;
+}
+
+A.afterPath {
+	color: #444;
+}
+
+A:hover,A.hover {
+	border-color: #CBD0D4;
+	background: #F3F6FA;
+	color: #062D75;
+}
+
+SPAN.separatorHighlight {
+	font: normal normal normal 13px/1.5 'Helvetica Neue', Arial, Helvetica,
+		'Liberation Sans', FreeSans, sans-serif;
+	text-decoration: none;
+	text-shadow: white 0px 1px 0px;
+	font-size: 0.8em;
+}
+
+SPAN.separatorNormal {
+	font: normal normal normal 13px/1.5 'Helvetica Neue', Arial, Helvetica,
+		'Liberation Sans', FreeSans, sans-serif;
+	text-decoration: none;
+	text-shadow: white 0px 1px 0px;
+	font-size: 0.8em;
+}
+
+DIV.popUp {
+	text-align: right;
+	vertical-align: text-top;
+}
+
+LI.folderBullet {
+	margin-bottom: 0.5em;
+}
+
+UL {
+	list-style: none;
+	min-height: 5em;
+}
